@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<meta charset='UTP-8'>
+<html>
+<title> ~Alynn's Portfolio~ </title>
+ <head>
+<link rel="stylesheet" href="AlynnStyle.css">
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+ </head>
+ <center>
+<h1 style="padding-right: 2%;" >REGISTRATION </h1>
+ <body>
+ 
+  <main class="login">
+  <img style="width: 30%; height: 30%; border: 1px solid rosybrown; border-radius: 3px; background-color: white;" src="mochi.gif"></img>
+   
+   <form action="register_action.php" method="POST">
+	<label for="userName"> Username: </label><br>
+      <input type= "text" name="userName" placeholder="Enter your name" required>&nbsp <br>
+	<label for="userEmail"> Email: </label><br>
+	  <input type= "email" name="userEmail" placeholder="Enter your email" required>&nbsp <br>
+	<label for="userPwd"> Password: </label>  <br>
+	  <input type= "password" name="userPwd" placeholder="********" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{0,12}" title= "Must contain at least: one number, one uppercase, one lowercase. Not more than 12 characters!" required><br>
+	<a style=" font-size: 12px; text-decoration: underline; color: maroon;" href="index.php"> Wanna go back home? </a><br>
+	 <!-- hntr usertype as 1 indicating user tp user x tau hoho --> 
+	 <input type= "text" name="userType" style="  cursor: default; opacity: 0; width: 5%; padding: 2px;" value="1" >	
+	 <br>
+	  <input class="normalButton" style=" border-radius: 0; border: 2px solid rosybrown;" type= "submit" value="Submit" ></input> &nbsp
+	  <input class="normalButton" style="border-radius: 0; border: 2px solid rosybrown; " type= "reset" value="Reset" > </input>
+	
+	
+
+	</form>
+	</center>
+	</main>
+
+ </body>
+<br><br>
+</html>
