@@ -17,13 +17,30 @@
                 <tr>  
                     <td> commit </td>
                     <td> add </td>
+                    <td> status </td>
+                    <td> push </td>
                 </tr>
                 <tr>
-                    <td> As it's name, you are committed to add the file into the repo</td>
-                    <td> To tell Git to track the file. Adding '.' tells Git to track ALL the files
-                    in the folder/repo.
+                    <td> As it's name, you are committed to add the file into the repo in local machine. Write <i>git commit -m "[your message]"</i>Message is compulsary.
+                    Message can be anything but preferably explanation on the commit. Can add a second message.</td>
+                    <td> To tell Git to track the file. Just write <i>git add [file-name] </i> </td>. Adding '.' tells Git to track ALL the files
+                    in the folder/repo.</td>
+                    <td> To check the state (or status hehe) of the repo we're using. See the files that are 
+                        committed/tracked and not committed/tracked.
                     </td>
-                    
+                    <td> To make the file live on a remote repository.To do this, one must have SSH keys to connect local machine to
+                        Github account. 
+                    <p>How to make SSH key:
+                        <p> 1) Type in terminal: <i>ssh-keygen -t rsa -b 4096 -C "Github email"</i><br>
+                            2) Then, set the filename that will save the key.<br>
+                            3) Enter passphrase if you want. Can leave blank.<br>
+                        <b>Result: Identification saved in the file. Public key saved in the file in .pub.
+                            Key fingerprint is added. Key's randomart image is provided.<br>
+                            Use private key to push files into Github.
+                        </b>
+                        <p>Arguments involved: origin master</p>
+                        </p>
+                    </p></td>
                 </tr>
             </tr>
         </table>
