@@ -5,3 +5,7 @@ This is just me trying to figure out Git and Github, following freeCodeCamp.org'
 ## Subheader
 
 I should be studying Heuristics Algo right now
+
+## Local Development
+
+1. Open index.html in your browser.
