@@ -10,3 +10,4 @@ I should be studying Heuristics Algo right now
 
 1. Blobb
 2. Fun. Ha.
+3. Testing git reset!
